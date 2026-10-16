@@ -383,7 +383,7 @@ test = [
     # monkeypatch of ``sessions._get_runner_client`` into later tests
     # on the same xdist worker and flaked the WS-tunnel suite (the
     # "Runner stream relay exited before becoming ready" 503s).
-    "pytest-rerunfailures==16.3",
+    "pytest-rerunfailures==16.7",
     "filelock>=3.0",
     # Cloud-service mocks for the artifact-store / Cloudflare integration
     # tests: moto is the standard S3-compatible mock (used for R2), respx is
